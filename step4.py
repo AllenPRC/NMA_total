@@ -11,7 +11,7 @@ for i, x in enumerate(a):
 print(n)
 np.save('indi.npy',indi)
 
-#进行数据清新
+#进行数据清新，可以清洗所有的数据
 
 import numpy as np
 from sys import argv
