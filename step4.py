@@ -1,3 +1,4 @@
+# 生成反式的索引
 import numpy as np
 
 a = np.load('Params.npy')
@@ -9,3 +10,5 @@ for i, x in enumerate(a):
         n += 1
 print(n)
 np.save('indi.npy',indi)
+
+
